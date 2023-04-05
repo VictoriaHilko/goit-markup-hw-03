@@ -12,6 +12,11 @@
     --list-color: #2e2f42;
 }
 
+h1, h2, h3, h4, h5, h6, p, ul{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
 body {
     color: var(--main-text-color);
     background-color: var(--ligth-cl);
@@ -21,6 +26,14 @@ body {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.02em;
 
+}
+
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 12px;
+    padding-right: 12px;
+    outline: 2px solid red;
 }
 
 .link {
@@ -78,6 +91,10 @@ body {
 .address-item:hover,
 .address-item:focus {
     color: var(--pressed-state);
+}
+
+.header{
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .header-title {
