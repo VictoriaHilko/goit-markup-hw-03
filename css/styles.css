@@ -259,7 +259,7 @@ body {
 }
 
 .about {
-    padding-bottom: 0;
+    padding: 120px 0;
 }
 
 .about-title {
@@ -274,6 +274,10 @@ body {
     ;
 }
 
+.about-card{
+    width: calc((100% - 72px) / 4);
+}
+
 .about-text {
     font-weight: 400;
     font-size: 16px;
@@ -284,8 +288,16 @@ body {
 
 /* Activity section */
 
+.activity{
+    padding-bottom: 120px;
+}
+
 .activity .header-title{
     margin-bottom: 72px;
+}
+
+.activity-card{
+    width: calc((100% - 48px) / 3);
 }
 
 .activity-list{
