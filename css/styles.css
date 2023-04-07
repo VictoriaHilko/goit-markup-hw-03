@@ -115,18 +115,15 @@ body {
     font-style: normal;
 }
 
-.site-nav {
+.site-nav{
     display: flex;
-    margin-right: 40px;
+    gap: 40px;
 }
 
-.item {
-    margin-right: 40px;
-}
 
-.site-nav .item:last-child {
+/* .site-nav .item:last-child {
     margin-right: 0;
-}
+} */
 
 
 .site-nav .link {
