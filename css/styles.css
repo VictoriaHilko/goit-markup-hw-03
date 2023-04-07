@@ -274,7 +274,7 @@ body {
     ;
 }
 
-.about-card{
+.about-list .about-card{
     width: calc((100% - 3 * 24px) / 4);
 }
 
