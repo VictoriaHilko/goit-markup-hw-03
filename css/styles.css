@@ -117,10 +117,10 @@ body {
 
 .site-nav{
     display: flex;
-    /* gap: 40px; */
+    gap: 40px;
 }
 
-.item {
+.site-nav .item {
     margin-right: 40px;
 } 
 
