@@ -365,6 +365,8 @@ body {
 /* Portfolio */
 .filter {    
     display: flex;
+    margin-top: 96px;
+    margin-bottom: 72px;
     gap: 24px;
     justify-content: center;
 }
@@ -407,8 +409,6 @@ body {
 
 .filter-result{
     display: flex;
-    margin-top: 96px;
-    margin-bottom: 72px;
 
     column-gap: 24px;
     row-gap: 48px;
