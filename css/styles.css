@@ -418,12 +418,17 @@ body {
     background-color: var(--color-navy-blue);
 }
 
-.footer-studio {
+.footer-a{
     display: inline-block;
+    margin-bottom: 16px;
+}
+
+.footer-studio {
+    /* display: inline-block; */
     width: 71px;
     color: var(--color-cloud);
 
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
 }
 
 
