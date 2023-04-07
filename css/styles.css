@@ -378,6 +378,10 @@ body {
 
 /* Portfolio */
 
+.portfolio-section {
+    padding: 96px 120px;
+}
+
 
 .list-filter {
     min-width: 101px;
@@ -410,7 +414,8 @@ body {
 
 .filter-result{
     display: flex;
-    /* gap: 48px 24px; */
+    column-gap: 24px;
+    row-gap: 48px;
     flex-wrap: wrap;
 
     /* margin-bottom: 120px; */
@@ -425,9 +430,12 @@ body {
 
 .portfilio-card {
     padding: 32px 16px;
+    /* margin-bottom: 8px; */
+
     border: 1px solid var(--color-cornflower);
     border-top: none;
-    margin-bottom: 8px;
+   
+    
 }
 
 .portfolio-example {
@@ -439,7 +447,7 @@ body {
 
     color: var(--color-navy-blue);
 
-    /* margin-bottom: 8px; */
+    margin-bottom: 8px;
 }
 
 .portfolio-desc {
