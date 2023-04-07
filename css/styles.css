@@ -256,13 +256,19 @@ body {
 
 /* About */
 
+.about {
+    padding: 120px 0;
+}
+
 .about-list {
     display: flex;
     gap: 24px;
+
+    width: calc((100% - 72px) / 4);
 }
 
-.about {
-    padding: 120px 0;
+.about-card {
+    width: calc((100% - 72px) / 4);
 }
 
 .about-title {
@@ -274,11 +280,6 @@ body {
     color: var(--color-navy-blue);
 
     margin-bottom: 8px;
-    ;
-}
-
-.about .about-card {
-    width: calc((100% - 72px) / 4);
 }
 
 .about-text {
@@ -299,13 +300,13 @@ body {
     margin-bottom: 72px;
 }
 
-.activity-card {
-    width: calc((100% - 48px) / 3);
-}
-
 .activity-list {
     display: flex;
     gap: 24px;
+}
+
+.activity-card {
+    width: calc((100% - 48px) / 3);
 }
 
 /* Team */
