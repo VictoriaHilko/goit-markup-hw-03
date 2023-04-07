@@ -418,7 +418,7 @@ body {
     width: calc((100% - 48px) / 3);
 
     background-color: var(--color-white);
-    border: 1px solid var(--color-cornflower);
+    /* border: 1px solid var(--color-cornflower); */
 }
 
 .portfolio-card {
