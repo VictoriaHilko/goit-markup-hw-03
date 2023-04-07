@@ -31,6 +31,10 @@ ul {
     padding: 0 auto;
 }
 
+img{
+    display: block;
+}
+
 /* Body */
 
 body {
@@ -46,9 +50,10 @@ body {
 
 .container {
     margin: 0 auto;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
     width: 1158px;
+
 
     /* outline: 2px solid red; */
 }
@@ -114,9 +119,14 @@ body {
     display: flex;
 }
 
-.site-nav .item:not(:last-child) {
+.item {
     margin-right: 40px;
 }
+
+.site-nav .item:last-child {
+    margin-right: 0;
+}
+
 
 .site-nav .link {
     display: block;
