@@ -27,8 +27,8 @@ h5,
 h6,
 p,
 ul {
-    margin: 0 auto;
-    padding: 0 auto;
+    margin: 0;
+    padding: 0;
 }
 
 img {
@@ -101,7 +101,7 @@ body {
     color: var(--color-iris);
 }
 
-.logo.studio {
+.studio {
     width: 71px;
     color: var(--color-navy-blue);
 
@@ -120,9 +120,9 @@ body {
     gap: 40px;
 }
 
-.site-nav .item {
+/* .site-nav .item {
     margin-right: 40px;
-}
+} */
 
 
 .site-nav .item:last-child {
@@ -228,6 +228,7 @@ body {
 
 .hero-button {
     display: block;
+    margin: 0 auto;
     min-width: 169px;
     height: 56px;
     padding: 16px 32px;
@@ -330,8 +331,8 @@ body {
 }
 
 .person-card {
-    display: inline;
-    width: calc((100% - 72px) / 4);
+    /* display: inline;
+    width: calc((100% - 72px) / 4); */
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 16px;
@@ -376,7 +377,7 @@ body {
 /* Portfolio */
 
 .portfolio-section {
-    padding: 96px 120px;
+    padding: 96px 0 120px;
 }
 
 
@@ -474,7 +475,7 @@ body {
 
 
 .footer-desc {
-
+    width: 264px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
